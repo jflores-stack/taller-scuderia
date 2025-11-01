@@ -4,11 +4,8 @@
     <meta charset="utf-8">
     <title>Redirigiendo...</title>
     <script>
-      // La ruta del repositorio (ej. /taller-scuderia/)
-      var repoPath = "/taller-scuderia/"; 
-
-      // 🛑 REDIRIGE DIRECTAMENTE A LA PÁGINA DE INVENTARIO
-      location.replace(location.protocol + "//" + location.host + repoPath + "index.html/inventario");
+      // Redirige directamente a la página de inicio para que el router de Blazor tome el control
+      location.replace(location.protocol + "//" + location.host + "/taller-scuderia/");
     </script>
   </head>
   <body>
